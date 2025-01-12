@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawyer-Client Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://www.flaticon.com/svg/static/icons/svg/1085/1085067.svg">
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+    <div class="logo"></div> <!-- Logo added in CSS -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#search">Search Lawyers</a></li>
+            <li><a href="#profile">My Profile</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+    <div class="hero-content">
+        <h1 class="animate__animated animate__fadeIn animate__delay-1s">Get Expert Legal Advice</h1>
+        <p class="animate__animated animate__fadeIn animate__delay-2s">Search by expertise, location, or law type and connect with top professionals.</p>
+        <button class="btn-primary animate__animated animate__zoomIn animate__delay-3s">Get Started</button>
+    </div>
+</section>
+
+<!-- Search Lawyers Section -->
+<section id="search" class="search-section animate__animated animate__fadeIn animate__delay-1s">
+    <h2>Find my Lawyer now</h2>
+    <div class="search-box">
+        <input type="text" placeholder="Enter expertise or location" id="search-bar">
+        <button class="btn-search">Search</button>
+    </div>
+    <div id="results"></div>
+    <h5 style="margin-top: 12px;"><i>100% Confidentiality | Verified Lawyers | Contact Immediately</i></h5>
+</section>
+
+
+<!-- Find Online Lawyers Now Section -->
+<section id="online-lawyers" class="online-lawyers-section animate__animated animate__fadeIn animate__delay-2s">
+    <h2>Find Online Lawyers Now</h2>
+    <p>Over 25+ Lawyers Online</p>
+    <div id="online-lawyer-list" class="online-lawyer-list">
+        <!-- Lawyer profiles will be injected here dynamically -->
+    </div>
+    <button id="find-more-btn" class="btn-primary">Find More Online Lawyers</button> <!-- Find More Button -->
+</section>
+
+
+<!-- Lawyer Categories Section -->
+<section id="categories" class="categories-section animate__animated animate__fadeIn animate__delay-2s">
+    <h2>Lawyer Categories</h2>
+    <div class="category-container">
+        <div class="category-card">
+            <img src="https://bflawmd.com/wp-content/uploads/2015/05/bigstock-Law-Theme-Court-Of-Law-Trial-469585411-min.jpg" alt="Criminal Law">
+            <h3>Criminal Law</h3>
+            <p>Criminal law, the body of law that defines criminal offenses, regulates the apprehension, charging, and trial of suspected persons, and fixes penalties and modes of treatment applicable to convicted offenders.</p>
+        </div>
+        <div class="category-card">
+            <img src="https://kirklandsommers.com/wp-content/uploads/shutterstock_1607829469-scaled.jpg" alt="Family Law">
+            <h3>Family Law</h3>
+            <p>Those laws that deal with family related matters such as marriage, divorce, adoption, inheritance, etc. Those laws that deal with family related matters such as marriage, divorce, adoption, inheritance, etc.</p>
+        </div>
+        <div class="category-card">
+            <img src="https://daclegal.in/wp-content/uploads/2021/07/Corporate-law.png" alt="Corporate Law">
+            <h3>Corporate Law</h3>
+            <p>Corporate Lawyer's job entails using legal knowledge to draft corporate agreements, corporate taxes, import and export, mergers and acquisitions, joint ventures, public offerings, sole proprietorships, partnerships, corporate structure agendas, employment law, government reporting</p>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials-section animate__animated animate__fadeIn animate__delay-3s">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-cards">
+        <div class="testimonial-card">
+            <p>"John is a brilliant lawyer! Helped me with my case quickly and efficiently. Highly recommend!"</p><br>
+            <p><strong>Mary S.</strong> - Client</p>
+        </div>
+        <div class="testimonial-card">
+            <p>"I found the best family lawyer through this platform. Very professional and knowledgeable."</p><br>
+            <p><strong>David R.</strong> - Client</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section animate__animated animate__fadeIn animate__delay-4s">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+        <input type="email" placeholder="Your email" required><br>
+        <textarea placeholder="Your message" required></textarea><br>
+        <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>&copy; 2025 Lawyer-Client Platform. All Rights Reserved.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
